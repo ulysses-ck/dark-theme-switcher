@@ -1,0 +1,16 @@
+@import "./components/Buttons";
+
+// Globals
+* {
+    &::before,
+    &::after {
+        box-sizing: border-box;
+    }
+    font-family: "Gemunu Libre", sans-serif;
+}
+body {
+    background-color: #585858;
+    color: white;
+    height: 200;
+    text-align: center;
+}
